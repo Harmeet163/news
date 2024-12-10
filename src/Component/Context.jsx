@@ -2,7 +2,7 @@ import React, { useContext, useReducer, useEffect } from "react";
 import { createContext } from "react";
 import reducer from "./reducer";
 
-const api = "http://hn.algolia.com/api/v1/search?";
+const api = "https://hn.algolia.com/api/v1/search?";
 const instialState = {
   isLoading: true,
   query: "",
